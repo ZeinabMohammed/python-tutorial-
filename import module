@@ -1,0 +1,15 @@
+import sys
+from module import find_index, test
+
+cources = ['history', 'math', 'physics', 'compsci']
+index = find_index(cources, 'math')
+print (index)
+print (test)
+print (sys.path)
+ """where to check for imported files:
+1- dir containing script we are running.
+2- python path environment variable
+3-standard library dirctories
+4- site  package directories"""
+
+
